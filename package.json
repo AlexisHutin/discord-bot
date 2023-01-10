@@ -1,0 +1,31 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "Multi purpose discord bot for home",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon -L",
+    "deploy-commands": "node deploy-commands.js"
+  },
+  "nodemonConfig": {
+    "ext": "js, json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexisHutin/discord-bot.git"
+  },
+  "author": "Alexis H.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexisHutin/discord-bot/issues"
+  },
+  "homepage": "https://github.com/AlexisHutin/discord-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.31.0"
+  }
+}
