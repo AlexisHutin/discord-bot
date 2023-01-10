@@ -1,5 +1,16 @@
 {
 	"token": "your-token-goes-here",
 	"clientId": "123456789012345678",
-	"guildId": "876543210987654321"
+	"guildId": "876543210987654321",
+
+	"hassio": {
+		"baseUrl": "https://hassio.uri/api/webhook/",
+		"webhooks": {
+			"testHookId": "your_hook_id"
+		}
+	},
+
+	"notion": {
+		"secret": "secret"
+	}
 }
